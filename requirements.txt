@@ -9,4 +9,3 @@ httptools
 pandas_datareader
 pydantic
 pmdarima
-ARIMA
