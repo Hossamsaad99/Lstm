@@ -8,3 +8,9 @@ uvicorn
 gunicorn==19.9.0
 uvloop
 httptools
+pandas_datareader
+statsmodels.tsa.arima_model
+pydantic
+nest_asyncio
+pmdarima
+ARIMA
