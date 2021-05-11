@@ -7,7 +7,6 @@ gunicorn
 uvloop
 httptools
 pandas_datareader
-statsmodels.tsa.arima_model
 pydantic
 pmdarima
 ARIMA
