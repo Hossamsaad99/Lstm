@@ -15,10 +15,8 @@ import pmdarima as pm
 from fastapi import FastAPI
 import uvicorn
 import pydantic
-import nest_asyncio
 import gunicorn
 import httptools
-nest_asyncio.apply()
 
 app = FastAPI()
 
