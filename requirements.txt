@@ -4,6 +4,7 @@ pandas
 fastapi
 uvicorn
 gunicorn
+uvloop
 httptools
 pydantic
 pmdarima
