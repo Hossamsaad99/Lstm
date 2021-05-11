@@ -4,9 +4,7 @@ pandas
 fastapi
 uvicorn
 gunicorn
-uvloop
 httptools
 pydantic
 pmdarima
 pandas_datareader
-Python ==3.9.5
