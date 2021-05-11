@@ -6,6 +6,5 @@ uvicorn
 gunicorn
 uvloop
 httptools
-pandas_datareader
 pydantic
 pmdarima
