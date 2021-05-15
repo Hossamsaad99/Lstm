@@ -1,13 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 
 
-import warnings
-warnings.filterwarnings('ignore')
-
-import pandas as pd
 import numpy as np
 import pandas_datareader as pdr
 from fastapi import FastAPI
@@ -15,6 +7,7 @@ import uvicorn
 import pydantic
 import gunicorn
 import httptools
+from datetime import *
 from tensorflow import keras
 from keras.models import load_model
 app = FastAPI()
