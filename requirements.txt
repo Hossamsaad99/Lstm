@@ -8,3 +8,4 @@ httptools
 pydantic
 pandas_datareader
 tensorflow-cpu
+keras
