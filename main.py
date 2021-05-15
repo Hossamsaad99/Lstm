@@ -54,14 +54,21 @@ def index():
 
 @app.post('/predict')
 
-async def predict_price(ticker:str):
+async def predict_price(data: str):
     if data == 'F':
-      
       
       model_prediction, lstm_prediction = lstm(data)
       
-  
-    return {'LSTM prediction' : lstm_prediction}
+
+      return {
+        
+        'LSTM prediction' : lstm_prediction
+        
+            }
+
+    else:
+      return {"the ticker not supported yet"}
+
         
       
        
