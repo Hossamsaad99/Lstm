@@ -6,6 +6,5 @@ gunicorn
 uvloop
 httptools
 pydantic
-pmdarima
 pandas_datareader
-tensorflow
+tensorflow-gpu
