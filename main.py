@@ -60,11 +60,8 @@ async def predict_price(data: str):
       model_prediction, lstm_prediction = lstm(data)
       
 
-      return {
-        
-        'LSTM prediction' : lstm_prediction
-        
-            }
+      return {'LSTM prediction' : lstm_prediction}
+
 
     else:
       return {"the ticker not supported yet"}
