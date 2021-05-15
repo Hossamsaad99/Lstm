@@ -7,5 +7,5 @@ uvloop
 httptools
 pydantic
 pandas_datareader
-tensorflow
+tensorflow-cpu
 keras
